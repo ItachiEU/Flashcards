@@ -1,0 +1,12 @@
+Aplikacja do nauki słówek - Filip Komorowski
+
+Moim projektem będzie aplikacja do nauki słówek, wykorzystująca sztuczkę mnemotechniczną, polegającą na powtarzaniu słówek w odpowiednich (rosnących) odstępach czasu.
+
+Nauka będzie miała formę przeglądania fiszek stworzonych przez użytkownika.
+Na fiszkach będzie można mieć tekst oraz opcjonalnie obraz.
+Dodatkowo będą dwa tryby nauki prosty i trudny, różniące się wymaganiami do zakceptowania przez aplikację, czy dane słówko w danym momencie już umiemy czy nie.
+
+Każda fiszka, będzie trzymała informację o tym kiedy ostatni raz była otwarta i uznana za nauczoną oraz ile razy ten proces zachodził. Na tej podstawie aplikacja będzie układać listę słówek na każdy dzień.
+
+Program będzie pisany w Javie z wykorzystaniem JavaFX.
+

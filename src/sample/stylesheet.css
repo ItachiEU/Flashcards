@@ -1,0 +1,19 @@
+
+
+.anchorMain {
+    -fx-background-image: url("mainMenuBackground.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
+
+.anchorEdit {
+    -fx-background-image: url("editingBackground.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
+
+.anchorLearn {
+    -fx-background-image: url("learningBackground.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}

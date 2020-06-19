@@ -1,0 +1,49 @@
+
+ConfirmBox class
+/*
+    Class that creates a pop-up window asking for confirmation of an action
+*/
+
+EditingCell class
+/*
+    Class from JavaFX documentation necessary to make TableView cell editable
+*/
+
+EditingStateController class
+/*
+    Class that implements all actions connected to the components implemented in editingState.fxml
+    Handles writing and getting information to/from database
+    Handles creation/edition/deletion of wordlists
+*/
+
+Flashcard class
+/*
+    Simple class that represents our Flashcards that we later use in EditingState and LearningState
+*/
+
+LearningStateController class
+/*
+    Class that implements all actions connected to the components implemented in learningState.fxml
+    Handles selecting given number of Flashcards from a selected set and then handles the learning loop
+    until user has learned all the words
+*/
+
+MainMenuController class
+/*
+    Class that implements all actions connected to the components implemented in mainMenu.fxml
+    From here you can go to LearningState, EditingState or quit
+*/
+
+numberBox class
+/*
+    Class that creates a pop-up window in which the user has to provide a number, that gets
+    returned on a press of the confirm button
+    Used in the program to decide how many words the user wants to learn from the selected set
+*/
+
+SQLHandler class
+/*
+    Class that establishes connection to the database and implements all the necessary SQL queries
+    later used in the program
+*/
+

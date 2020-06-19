@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MainMenuController">
+    <columnConstraints>
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+    </rowConstraints>
+    <children>
+        <AnchorPane prefHeight="500.0" prefWidth="800.0" styleClass="anchorMain" stylesheets="@stylesheet.css">
+            <children>
+                <Button fx:id="startLearningButton" layoutX="248.0" layoutY="110.0" mnemonicParsing="false" onAction="#enterLearningState" prefHeight="112.0" prefWidth="283.0" text="Start Learning" />
+                <Button fx:id="enterEditingState" layoutX="248.0" layoutY="235.0" mnemonicParsing="false" onAction="#enterEditState" prefHeight="112.0" prefWidth="283.0" text="Create new / Edit existing sets" />
+                <Button fx:id="exitButton" layoutX="248.0" layoutY="361.0" mnemonicParsing="false" onAction="#onExit" prefHeight="112.0" prefWidth="283.0" text="Exit" />
+                <Label alignment="CENTER" contentDisplay="CENTER" layoutX="67.0" layoutY="40.0" prefHeight="48.0" prefWidth="667.0" text="Learn with Flashcards" textAlignment="CENTER">
+                    <font>
+                        <Font size="41.0" />
+                    </font>
+                </Label>
+                <AnchorPane layoutX="551.0" layoutY="201.0" />
+            </children></AnchorPane>
+    </children>
+</GridPane>
