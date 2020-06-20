@@ -1,6 +1,6 @@
 # Flashcards
 
-A java application with which you can create wordlists to learn from in form of Flashcards
+A java application for learning with Flashcards
 
 ## Technologies used
 
