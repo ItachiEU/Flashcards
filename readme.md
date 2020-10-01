@@ -37,11 +37,11 @@ Windows: Open Flashcards-win.jar with jdk11
 ## Some screenshots
 
 
-![Screenshot](https://i.postimg.cc/L4fHJRhQ/mainMenu.png)
+![Screenshot](https://i.ibb.co/t36Tysn/mainMenu.png)
 
-![Screenshot](https://i.postimg.cc/hvFc2ZZ0/Edit-State.png)
+![Screenshot](https://i.ibb.co/LJ1vgXL/Edit-State.png)
 
-![Screenshot](https://i.postimg.cc/5NVfvGC4/sample-Size.png)
+![Screenshot](https://i.ibb.co/pdFQyVz/sample-Size.png)
 
-![Screenshot](https://i.postimg.cc/zvn56w9Y/learning-State.png)
+![Screenshot](https://i.ibb.co/G2jbrP3/learning-State.png)
 
